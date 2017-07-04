@@ -29,10 +29,6 @@ html {
 
 @media screen and (max-width: 500px) { body { height: auto; } }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
-
 .intro-section {
     height:100%;
     padding-top: 150px;
@@ -40,30 +36,139 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
-.about-section {
+.main-section {
     height:100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
 }
 
-.about-section2 {
+.main-section2 {
     padding-top: 150px;
     padding-bottom: 20px;
     text-align: center;
     background: #eee;
 }
 
-.services-section {
+.alt-section {
     height:100%;
     padding-top: 150px;
     text-align: center;
     background: #fff;
 }
 
-.services-section2 {
+.alt-section2 {
     padding-top: 150px;
     padding-bottom: 20px;
     text-align: center;
     background: #fff;
+}
+
+/* Discord Styles */
+
+channel{
+    color: #ffffff; 
+    padding-left: 3px; 
+    padding-right: 3px; 
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    background: #7289da; 
+    transition: background-color 0.05s, color 0.05s;
+}
+
+joinablerole{
+    color: #e67e22; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(230, 126, 34, 0.098);
+}
+
+owner{
+    color: #5617f6; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(86, 23, 246, 0.0980392);
+}
+
+admin{
+    color: #74b6f7; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(116, 182, 247, 0.0980392);
+}
+
+jradmin{
+    color: #992d22; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(153, 45, 34, 0.0980392);
+}
+
+mod{
+    color: #195080;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(25, 80, 128, 0.0980392);
+}
+
+jrmod{
+    color: #e0d814; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(224, 216, 20, 0.0980392);
+}
+
+staff{
+    color: #0da19c; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    text-align: start; 
+    white-space: pre-wrap; 
+    background-color: rgba(13, 161, 156, 0.098);
+}
+
+living{
+    color: #e74c3c; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(231, 76, 60, 0.0980392);
+}
+
+professional{
+    color: #908ebe; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(144, 142, 190, 0.0980392);
+}
+
+member{
+    color: #1f8b4c; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(31, 139, 76, 0.0980392);
+}
+
+freshly{
+    color: #e91e63; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(233, 30, 99, 0.0980392); 
+}
+
+delinquent{
+    color: #818689; 
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-weight: 600; 
+    white-space: pre-wrap; 
+    background-color: rgba(129, 134, 137, 0.0980392);
 }
