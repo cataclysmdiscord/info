@@ -133,7 +133,7 @@ staff{
     background-color: rgba(13, 161, 156, 0.098);
 }
 
-living{
+honored{
     color: #e74c3c; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 600; 
@@ -141,7 +141,7 @@ living{
     background-color: rgba(231, 76, 60, 0.0980392);
 }
 
-professional{
+activemem{
     color: #908ebe; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 600; 
@@ -157,7 +157,7 @@ member{
     background-color: rgba(37, 192, 89, 0.0980392);
 }
 
-freshly{
+newmem{
     color: #e91e63; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 600; 
@@ -165,7 +165,7 @@ freshly{
     background-color: rgba(233, 30, 99, 0.0980392); 
 }
 
-delinquent{
+punished{
     color: #818689; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 600; 
