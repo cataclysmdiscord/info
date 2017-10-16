@@ -158,11 +158,11 @@ member{
 }
 
 newmem{
-    color: #e91e63; 
+    color: ##a84300; 
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: 600; 
     white-space: pre-wrap; 
-    background-color: rgba(233, 30, 99, 0.0980392); 
+    background-color: rgba(168, 67, 0, 0.0980392); 
 }
 
 punished{
